@@ -1,3 +1,4 @@
+#BASE64隐写解密脚本
 import base64
 
 BASE64 = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/'
