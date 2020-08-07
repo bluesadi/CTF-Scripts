@@ -23,3 +23,4 @@ for i in range(15,21):
 inputs[7] = '3'
 
 print('scuctf{' + ''.join(inputs) + '}')
+
