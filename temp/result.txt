@@ -1,1 +1,0 @@
-char is:2		number is: 4
