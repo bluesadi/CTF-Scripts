@@ -1,6 +1,6 @@
 import os
 
-pyfile = open('D:/CTF/CTF-Scripts/WP/第十三届全国大学生信息安全竞赛/z3-solve.py','w+')
+pyfile = open('z3-solve.py','w+')
 
 content = 'from z3 import *\n\n'
 
