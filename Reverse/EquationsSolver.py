@@ -40,3 +40,5 @@ class EquationsSolver:
         target.close()
         os.system(f'python {temp}')
         os.remove(temp)
+
+solver = EquationsSolver()
