@@ -1,5 +1,7 @@
 """
-解出输入方程组的解，并将可行解打印成ASCII字符串。
+输入求解未知数与约束条件表达式
+解出方程组的解，并将可行解打印成ASCII字符串
+2020/8/21 by bluesadi
 """
 from z3 import *
 import os
