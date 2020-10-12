@@ -9,11 +9,11 @@ RC4加解密 C/CPP实现
 using std::swap;
 
 Byte S[256],T[256];
-char key[256] = "yyds";
-int keylen = strlen(key);
+char secert[256] = "yyds";
+int keylen = strlen(secert);
 
 void RC4Init(){
-    for(int i = 0;i < 256;i++) S[i] = i,T[i] = key[i % keylen];
+    for(int i = 0;i < 256;i++) S[i] = i,T[i] = secert[i % keylen];
     int j = 0;
     for(int i = 0;i < 256;i++){
         j = (j + S[i] + T[i]) % 256;
