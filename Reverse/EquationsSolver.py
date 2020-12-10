@@ -21,7 +21,7 @@ class EquationsSolver:
     def addConstraint(self,constraint: str):
         self.constraints.append(constraint)
 
-    def addConstraints(self,constraint: list):
+    def addConstraints(self,constraints: list):
         self.constraints += constraints
 
     def solve(self):
